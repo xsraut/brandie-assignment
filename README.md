@@ -1,16 +1,9 @@
 # brandie_assignment
 
-A new Flutter project.
+Submission for Brandie Assignment
 
-## Getting Started
+## Instructions
 
-This project is a starting point for a Flutter application.
+After cloning the project, run the following command to get packages and dependencies:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+``` $ flutter pub get```
