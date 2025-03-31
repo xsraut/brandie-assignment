@@ -6,6 +6,7 @@ import 'package:brandie_assignment/src/features/post/providers/post_share_provid
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 // Quickshare to social media section
 class QucikShareWidget extends StatelessWidget {
@@ -96,12 +97,12 @@ class SocialMediaIcon extends ConsumerWidget {
       child: Container(
         width: 40,
         height: 40,
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(5),
         decoration: BoxDecoration(
             color: Color.fromRGBO(254, 254, 254, 0.25),
             borderRadius: BorderRadius.circular(50)),
-        child: Image.asset(
-          'assets/icons/socials/$platformName.png',
+        child: SvgPicture.asset(
+          'assets/icons/socials/$platformName.svg',
           // fit: BoxFit.contain,
         ),
       ),
@@ -148,8 +149,8 @@ class SocialMediaStoryIcon extends StatelessWidget {
             decoration: BoxDecoration(
                 color: Color.fromRGBO(254, 254, 254, 0.25),
                 borderRadius: BorderRadius.circular(50)),
-            child: Image.asset(
-              'assets/icons/socials/$platformName.png',
+            child: SvgPicture.asset(
+              'assets/icons/socials/$platformName.svg',
               // fit: BoxFit.contain,
             ),
           ),
